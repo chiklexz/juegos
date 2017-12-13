@@ -110,7 +110,7 @@ body {font-family: Verdana,sans-serif;}
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <a href="SOUTHONE.php"><img src="imagenes/south.jpg" style="width:100%"></a>
+  <a href="SOUTHONE.PHP"><img src="imagenes/south.jpg" style="width:100%"></a>
   <div class="text"><h2>Una nueva aventura en el pueblo de SouthPark te espera</h2></div>
 </div>
 
