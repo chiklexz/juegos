@@ -40,8 +40,8 @@
 			<table width="1000" border="0" id="tab">
          <TR> 
          <TD width="250"><a href="CRASH.php"><center><img src="crash_bandicoot_2.jpg"></center></TD> 
-         <TD width="250"><a href="LAST.php"><center><img src="the-last-of-us-remastered_3.jpg"></center></TD> 
-         <TD width="250"><a href="MORTAL.php"><center><img src="mortal-kombat-xl_2.jpg"></center></TD> 
+         <TD width="250"><a href="LAST.PHP"><center><img src="the-last-of-us-remastered_3.jpg"></center></TD> 
+         <TD width="250"><a href="MORTAL.PHP"><center><img src="mortal-kombat-xl_2.jpg"></center></TD> 
          </TR> 
          <TR> 
          <TD><center> <h2>CRASH BANDICOOT N-SANE TRILOGY</h2></center></TD> 
