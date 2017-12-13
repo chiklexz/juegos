@@ -1,3 +1,20 @@
+<?php
+$busca="";
+$busca= isset($_POST['busca'])?$_POST['busca']:NULL;
+$conexion = mysqli_connect("localhost","root","");// si haces conexion desde internnet usa 3 parametros si es a nivel local solo 2
+mysqli_select_db($conexion,"videojuegos");//nombre de la base de datos
+if($busca!=""){
+$busqueda=mysqli_query($conexion,"SELECT * FROM ps4 WHERE nombre LIKE '%".$busca."%'");//cambiar nombre de la tabla de busqueda
+<table width="1000" border="1" id="tab">
+   <tr>
+     <td width="20">Id </td>
+     <td width="100">Nombre</td>
+     <td width="157">Compania</td>
+     <td width="221">Genero</td>
+     <td width="80">Link</td>
+   </tr>
+ 
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
