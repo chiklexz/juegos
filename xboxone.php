@@ -36,7 +36,27 @@
 			</header>
     
 <!-- tabla buscador -->
-			<?php
+			
+</table>
+			<!-- tabla -->
+			<table width="1000" border="0" id="tab">
+         <TR> 
+         <TD width="250"><a href="SOUTHONE.php"><center><img src="south_park_one_.jpg"></center></TD> 
+         <TD width="250"><a href="MINECRAFT.php"><center><img src="minecraft-one.jpg"></center></TD> 
+         <TD width="250"><a href="FIFA18ONE.php"><center><img src="fifa-soccer-18-.jpg"></center></TD> 
+         </TR> 
+         <TR> 
+         <TD><center> <h2>SOUTH PARK THE FRACTURED BUT WHOLE</h2></center></TD> 
+         <TD><center> <h2>MINECRAFT </h2></center></TD> 
+        <TD><center> <h2>FIFA SOCCER 18</h2></center></TD> 
+         </TR> 
+         </TABLE> 
+		</article> 
+	
+	</section> 	
+				</body>
+			</html>
+	<?php
 $busca="";
 $busca= isset($_POST['busca'])?$_POST['busca']:NULL;
 $conexion = mysqli_connect("localhost","root","");// si haces conexion desde internnet usa 3 parametros si es a nivel local solo 2
@@ -69,22 +89,3 @@ echo '</tr>';
 
 }
 ?>
-</table>
-			<!-- tabla -->
-			<table width="1000" border="0" id="tab">
-         <TR> 
-         <TD width="250"><a href="SOUTHONE.php"><center><img src="south_park_one_.jpg"></center></TD> 
-         <TD width="250"><a href="MINECRAFT.php"><center><img src="minecraft-one.jpg"></center></TD> 
-         <TD width="250"><a href="FIFA18ONE.php"><center><img src="fifa-soccer-18-.jpg"></center></TD> 
-         </TR> 
-         <TR> 
-         <TD><center> <h2>SOUTH PARK THE FRACTURED BUT WHOLE</h2></center></TD> 
-         <TD><center> <h2>MINECRAFT </h2></center></TD> 
-        <TD><center> <h2>FIFA SOCCER 18</h2></center></TD> 
-         </TR> 
-         </TABLE> 
-		</article> 
-	
-	</section> 	
-				</body>
-			</html>
