@@ -42,8 +42,8 @@
 			<table width="1000" border="0" id="tab">
          <TR> 
          <TD width="250"><a href="SMASH.php"><center><img src="super-smash-wiiu_1.jpg"></center></TD> 
-         <TD width="250"><a href="ZELDAWILD.php"><center><img src="breath-of-the-wild.jpg"></center></TD> 
-         <TD width="250"><a href="MARIO3D.php"><center><img src="super-mario-3d-world_2_1.jpg"></center></TD> 
+         <TD width="250"><a href="ZELDAWILD.PHP"><center><img src="breath-of-the-wild.jpg"></center></TD> 
+         <TD width="250"><a href="MARIO3D.PHP"><center><img src="super-mario-3d-world_2_1.jpg"></center></TD> 
          </TR> 
          <TR> 
          <TD><center> <h2>SUPER SMASH BROS WIIU</h2></center></TD> 
