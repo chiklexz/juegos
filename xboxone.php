@@ -41,9 +41,9 @@
 			<!-- tabla -->
 			<table width="1000" border="0" id="tab">
          <TR> 
-         <TD width="250"><a href="SOUTHONE.php"><center><img src="south_park_one_.jpg"></center></TD> 
+         <TD width="250"><a href="SOUTHONE.PHP"><center><img src="south_park_one_.jpg"></center></TD> 
          <TD width="250"><a href="MINECRAFT.php"><center><img src="minecraft-one.jpg"></center></TD> 
-         <TD width="250"><a href="FIFA18ONE.php"><center><img src="fifa-soccer-18-.jpg"></center></TD> 
+         <TD width="250"><a href="FIFA18ONE.PHP"><center><img src="fifa-soccer-18-.jpg"></center></TD> 
          </TR> 
          <TR> 
          <TD><center> <h2>SOUTH PARK THE FRACTURED BUT WHOLE</h2></center></TD> 
