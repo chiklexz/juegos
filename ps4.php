@@ -35,41 +35,7 @@
 				<h1>BIENVENIDO AL APARTADO DE PS4 SELECCIONA UN JUEGO O ESCRIBE SU NOMBRE EN EL BUSCADOR</h1>
 			</header>
     
-<!-- tabla buscador -->
-			<?php
-$busca="";
-$busca= isset($_POST['busca'])?$_POST['busca']:NULL;
-$conexion = mysqli_connect("localhost","root","");// si haces conexion desde internnet usa 3 parametros si es a nivel local solo 2
-mysqli_select_db($conexion,"videojuegos");//nombre de la base de datos
-if($busca!=""){
-$busqueda=mysqli_query($conexion,"SELECT * FROM ps4 WHERE nombre LIKE '%".$busca."%'");//cambiar nombre de la tabla de busqueda
-?>
-<table width="1000" border="1" id="tab">
-   <tr>
-     <td width="20">Id </td>
-     <td width="100">Nombre</td>
-     <td width="157">Compania</td>
-     <td width="221">Genero</td>
-     <td width="80">Link</td>
-   </tr>
- 
-<?php
 
-while($f=mysqli_fetch_array($busqueda)){
-echo '<tr>';
-echo '<td width="20">'.$f['ID'].'</td>';
-echo '<td width="100">'.$f['Nombre'].'</td>';
-echo '<td width="157">'.$f['Compania'].'</td>';
-echo '<td width="221">'.$f['Genero'].'</td>';
-echo '<td width="80"><a href="'.$f['Link'].'"> haz click aqui</a></td>';
-echo '</tr>';
-//onclick="return confirm('¿Realmente deseas eliminar este articulo?')";
-//cambiar los nombres de los campos de busqueda
-}
-
-}
-?>
-</table>
 			<!-- tabla -->
 			<table width="1000" border="0" id="tab">
          <TR> 
@@ -86,3 +52,4 @@ echo '</tr>';
 		</article> 
 	
 	</section> 	
+				
