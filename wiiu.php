@@ -36,7 +36,27 @@
 			</header>
     
 <!-- tabla buscador -->
-			<?php
+			
+</table>
+			<!-- tabla -->
+			<table width="1000" border="0" id="tab">
+         <TR> 
+         <TD width="250"><a href="SMASH.php"><center><img src="super-smash-wiiu_1.jpg"></center></TD> 
+         <TD width="250"><a href="ZELDAWILD.php"><center><img src="breath-of-the-wild.jpg"></center></TD> 
+         <TD width="250"><a href="MARIO3D.php"><center><img src="super-mario-3d-world_2_1.jpg"></center></TD> 
+         </TR> 
+         <TR> 
+         <TD><center> <h2>SUPER SMASH BROS WIIU</h2></center></TD> 
+         <TD><center> <h2>THE LEGEND OF ZELDA BREATH OF THE WILD </h2></center></TD> 
+        <TD><center> <h2>SUPER MARIO 3D WORLD</h2></center></TD> 
+         </TR> 
+         </TABLE> 
+		</article> 
+	
+	</section> 	
+				</body>
+		</html>
+	<?php
 $busca="";
 $busca= isset($_POST['busca'])?$_POST['busca']:NULL;
 $conexion = mysqli_connect("localhost","root","");// si haces conexion desde internnet usa 3 parametros si es a nivel local solo 2
@@ -69,20 +89,3 @@ echo '</tr>';
 
 }
 ?>
-</table>
-			<!-- tabla -->
-			<table width="1000" border="0" id="tab">
-         <TR> 
-         <TD width="250"><a href="SMASH.php"><center><img src="super-smash-wiiu_1.jpg"></center></TD> 
-         <TD width="250"><a href="ZELDAWILD.php"><center><img src="breath-of-the-wild.jpg"></center></TD> 
-         <TD width="250"><a href="MARIO3D.php"><center><img src="super-mario-3d-world_2_1.jpg"></center></TD> 
-         </TR> 
-         <TR> 
-         <TD><center> <h2>SUPER SMASH BROS WIIU</h2></center></TD> 
-         <TD><center> <h2>THE LEGEND OF ZELDA BREATH OF THE WILD </h2></center></TD> 
-        <TD><center> <h2>SUPER MARIO 3D WORLD</h2></center></TD> 
-         </TR> 
-         </TABLE> 
-		</article> 
-	
-	</section> 	
