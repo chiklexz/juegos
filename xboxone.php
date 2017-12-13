@@ -86,3 +86,5 @@ echo '</tr>';
 		</article> 
 	
 	</section> 	
+				</body>
+			</html>
