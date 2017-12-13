@@ -52,4 +52,7 @@
 		</article> 
 	
 	</section> 	
+				</body>
+			</html>
+		
 				
