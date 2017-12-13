@@ -116,7 +116,7 @@ body {font-family: Verdana,sans-serif;}
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <a href="SMASH.php"><img src="imagenes/smash.jpg" style="width:100%"></a>
+  <a href="SMASH.php"><img src="imagenes/Smash.jpg" style="width:100%"></a>
   <div class="text"><h2>Pelea solo o con tus amigos junto con los personajes mas populares de nintendo</h2></div>
 </div>
 
